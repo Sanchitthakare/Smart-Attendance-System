@@ -1,0 +1,40 @@
+
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='SignUp.css'>
+</head>
+<body>
+
+<div class="form-box" id="entries">
+  <div class="form-step active" id="step-1">
+    <button onclick="fetchData()">Take Attendance</button>
+  </div>
+
+  <div class="form-step" id="step-2">
+    <h1 id ="Roll_No"></h1><br><br>
+    <h2 id ="Name"></h2><br><br>
+    <h3 id ="Subject"></h3><br><br>
+    <button onclick="Absent()">Absent</button>
+    <button onclick="present()">Present</button>
+  </div>
+
+ <!-- <div class="form-step" id="step-3">
+    
+    <h2>Section Details</h2>
+    <input type="text" id="yr" placeholder="Year">
+    <input type="text" id="section"placeholder="Section">
+    <input type="text" id="subject" placeholder="Subject">
+    <input type="password" id="STid" placeholder="Subject Teacher Identification no">
+    <button onclick="prevStep()">Previous</button>
+    <button onclick="displayData()">Submit</button>
+  </div>
+-->
+</div>
+
+<script src="attenscript.js"></script>
+</body>
+</html>

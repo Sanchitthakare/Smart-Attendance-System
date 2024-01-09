@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='SignUp.css'>
+</head>
+<body>
+
+<div class="form-box">
+  <div class="form-step active" id="step-1">
+    <h2>Crediantial Detials</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="Pass" placeholder="Password">
+    <button onclick="nextStep()">Next</button>
+  </div>
+
+  <div class="form-step" id="step-2">
+    <h2>Personal <Details></Details></h2>
+    <input type="text" id="Name" placeholder="Name">
+    <input type="text" id="Tid" placeholder="Teacher Id">
+    <button onclick="prevStep()">Previous</button>
+    <button onclick="nextStep()">Next</button>
+  </div>
+
+  <div class="form-step" id="step-3">
+    
+    <h2>Section Details</h2>
+    <input type="text" id="yr" placeholder="Year">
+    <input type="text" id="section"placeholder="Section">
+    <input type="text" id="subject" placeholder="Subject">
+    <input type="password" id="STid" placeholder="Subject Teacher Identification no">
+    <button onclick="prevStep()">Previous</button>
+    <button onclick="displayData()">Submit</button>
+  </div>
+</div>
+
+<script src="ScriptS.js"></script>
+</body>
+</html>
